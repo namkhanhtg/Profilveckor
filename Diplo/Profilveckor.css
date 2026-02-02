@@ -7,7 +7,7 @@ body{
 .logo_container {
     padding: 10px;
     display: flex;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .logo {  
@@ -37,15 +37,15 @@ a{
 
 .lang-icon {
     display: inline-block;
-    width: 100px;
+    width: 50px;
     height: 60px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .language-selector { /* fick AI hjälp med hur den display/positionering fungerar och lite hover när det kommer till numer */
     position: absolute;
     top: 40px;
-    right: 20px;
+    right: 120px;
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -84,4 +84,8 @@ a{
     padding: 20px;
     cursor: pointer;
 }
-
+.diplo_image {
+    display: flex;
+    width: 30%;
+    float: left;
+}
