@@ -1,0 +1,26 @@
+body{  
+    margin: 0;  
+    font-family: Arial, sans-serif;
+    background-color: black; 
+}
+
+.logo_container {
+    padding: 10px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    display: flex;
+    
+}
+
+.logo_text {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    align-self: center;
+    
+}
