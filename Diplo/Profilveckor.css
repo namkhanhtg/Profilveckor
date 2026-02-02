@@ -86,6 +86,8 @@ a{
 }
 .diplo_image {
     display: flex;
-    width: 30%;
+    width: 20%;
     float: left;
+    margin-left: 270px;
+    margin-top: 90px;
 }
