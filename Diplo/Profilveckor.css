@@ -10,17 +10,61 @@ body{
     margin-left: 150px;
 }
 
-.logo img {
-    min-height: calc(100vh -150px);
-    width: auto;
-    display: flex;
-    
+.logo {  
+    width: 90px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
+
+
 .logo_text {
+    display: flex;
     color: white;
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 90px;
     align-self: center;
-    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.lang-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.lang-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.language-selector { /* fick AI hjälp med hur den display/positionering fungerar och lite hover när det kommer till numer */
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c9ca1;
+
+    background-color: rgba(44, 156, 161, 0.1);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease, transform 0.2s ease;
 }
