@@ -11,7 +11,7 @@ body{
 }
 
 .logo img {
-    height: 60px;
+    min-height: calc(100vh -150px);
     width: auto;
     display: flex;
     
