@@ -91,3 +91,16 @@ a{
     margin-left: 270px;
     margin-top: 90px;
 }
+
+
+.start_text{
+
+     display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 40px;
+    align-self: center;
+    color: white;
+    letter-spacing: 2px;
+
+}
