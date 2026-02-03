@@ -25,7 +25,7 @@ body{
     margin-left: 20px;
     padding-top: 40px;
     align-self: center;
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
 
 }
@@ -53,7 +53,7 @@ a{
     padding: 8px 16px;
     font-size: 16px;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid transparent;
@@ -99,7 +99,7 @@ a{
     margin-left: 20px;
     padding-top: 40px;
     align-self: center;
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
     max-width: 600px;
     line-height: 1.6;
@@ -114,10 +114,15 @@ a{
     margin-top: 20px;
     padding: 15px 30px;
     font-size: 18px;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #2C9CA1;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.start_btn:hover {
+    background-color: #0075ff;
+    color: white;
 }
