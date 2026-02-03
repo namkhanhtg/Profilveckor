@@ -171,3 +171,8 @@ a {
         font-size: 26px;
     }
 }
+
+.CorpLogo {
+    display: flex;
+    align-items: center;
+}
