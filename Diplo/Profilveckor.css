@@ -1,7 +1,7 @@
 body{  
     margin: 0;  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: black; 
+    background-color: rgb(172, 255, 164); 
 }
 
 .logo_container {
@@ -55,7 +55,7 @@ a{
     font-weight: bold;
     color: white;
 
-    background-color: rgba(44, 156, 161, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid transparent;
     border-radius: 12px;
     cursor: pointer;
