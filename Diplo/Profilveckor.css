@@ -1,8 +1,14 @@
-/* ===== Global ===== */
+
 body {
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     background-color: rgb(255, 255, 255);
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
@@ -36,7 +42,7 @@ a {
     color: #000;
 }
 
-/* ===== Language Button ===== */
+
 .language-selector {
     display: inline-flex;
     align-items: center;
@@ -76,7 +82,7 @@ a {
     font-size: 16px;
 }
 
-/* ===== About Link ===== */
+
 .about-link {
     padding: 8px 16px;
     font-size: 16px;
@@ -102,7 +108,7 @@ a {
     outline-offset: 2px;
 }
 
-/* ===== Start Section ===== */
+
 .start_container {
     display: flex;
     justify-content: center;
@@ -121,6 +127,7 @@ a {
 }
 
 .start_text {
+    align-items: column;
     font-size: 32px;
     letter-spacing: 2px;
     line-height: 1.5;
@@ -128,19 +135,19 @@ a {
     font-weight: 300;
 }
 
-/* ===== Button ===== */
+
 .start_button {
     margin-top: 24px;
 }
 
 .start_btn {
     display: inline-block;
-    padding: 15px 36px;
-    font-size: 18px;
+    padding: 20px 40px;
+    font-size: 20px;
     font-weight: bold;
     color: #000;
-    background-color: #0075ff;
-    border-radius: 8px;
+    background-color: #c1deff;
+    border-radius: 9px;
 
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
@@ -151,7 +158,7 @@ a {
     transform: translateY(-2px);
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 900px) {
     .logo_container {
         padding: 20px;
@@ -170,6 +177,7 @@ a {
     .start_text {
         font-size: 26px;
     }
+
 } 
 
 
@@ -184,4 +192,90 @@ a {
     width: 75px;
 
    
-    transition: background-color 0.3s ease, transform 0.2s ease;}
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.CorpLogo {
+    display: flex;
+    align-items: center;
+}
+
+.starter_text{
+    font-size: 30px;
+}
+
+
+.footer {
+    background-color: #f7fbff;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    color: #333;
+}
+
+
+.footer-copy {
+    margin: 0;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 28px;
+}
+
+.footer-links a {
+    color: #0075ff;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+
+    transition: color 0.25s ease;
+}
+
+
+.footer-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+}
+
+.footer-links a:hover::after {
+    transform: scaleX(1);
+}
+
+
+@media (max-width: 900px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 14px;
+        padding: 24px 20px;
+        text-align: center;
+    }
+
+    .footer-links {
+        gap: 20px;
+    }
+}
+
