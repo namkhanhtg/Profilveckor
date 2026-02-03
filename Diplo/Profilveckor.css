@@ -188,14 +188,33 @@ a {
     padding: 20px;
     border: 2px solid #0075ff;
     border-radius: 12px;
-    background-color: #e6f0ff;
-    text-align: center;
-    width: 75px;
-
-   
+    background-image: url("math.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 260px;
+    height: 130px;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    font-size: 80px;
+    color: #002afc;
+    border-style: groove;
 }
 
+.math:hover {
+    background-color: #c1deff;
+    transform: translateY(-5px);
+}
+.math:focus {
+    outline: 2px solid #0075ff;
+    outline-offset: 2px;
+}
+.math img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    position: relative;
+}
 
 .CorpLogo {
     display: flex;
