@@ -1,8 +1,14 @@
-/* ===== Global ===== */
+
 body {
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     background-color: rgb(255, 255, 255);
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
@@ -182,13 +188,13 @@ a {
     font-size: 30px;
 }
 
-/* ===== Footer ===== */
+
 .footer {
     background-color: #f7fbff;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* Layout */
+
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -202,14 +208,14 @@ a {
     color: #333;
 }
 
-/* Text */
+
 .footer-copy {
     margin: 0;
     font-weight: 500;
     opacity: 0.8;
 }
 
-/* Links */
+
 .footer-links {
     display: flex;
     gap: 28px;
@@ -224,7 +230,7 @@ a {
     transition: color 0.25s ease;
 }
 
-/* Modern underline animation */
+
 .footer-links a::after {
     content: "";
     position: absolute;
@@ -242,7 +248,7 @@ a {
     transform: scaleX(1);
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 900px) {
     .footer-content {
         flex-direction: column;
