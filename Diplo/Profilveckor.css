@@ -168,11 +168,13 @@ a {
         gap: 40px;
     }
 
+    .start_text {
+        font-size: 26px;
+    }
 }
 
-.text-container{
+.CorpLogo {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
