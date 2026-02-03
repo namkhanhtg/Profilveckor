@@ -88,7 +88,8 @@ a{
     display: flex;
     width: 30%;
     float: left;
-    margin-left: 250px;
+    padding-right: 100px;
+    margin-left: 220px;
     margin-top: 90px;
 }
 
@@ -110,7 +111,7 @@ a{
 
 
 .start_btn{
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 20px;
     padding: 15px 30px;
     font-size: 18px;
