@@ -112,7 +112,7 @@ a {
     margin-top: 70px;
     display: flex;
     justify-content: center;
-    padding: 50px 50px;
+    padding: 20px 20px;
     margin-bottom: 170px;
     background-color: #fff; 
     max-width: 50%; 
@@ -215,7 +215,7 @@ a {
 
 
 .footer {
-    background-color: #f7fbff;
+    background-color: #c1deff;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     position: fixed;
    bottom: 0;
