@@ -1,0 +1,30 @@
+{
+  "en": {
+    "logo": "DIPLO",
+    "nav.about": "About",
+    "nav.privacy": "Privacy",
+    "nav.contact": "Contact",
+    "homepage.starter_text": "Learn Math <br>Revolutionary <br>Tools and Ease!",
+    "homepage.get_started": "Get started",
+    "homepage.about_link": "About",
+    "math.title": "Welcome to Math!",
+    "subject.math": "Math",
+    "about.title": "About",
+    "footer.copy": "© 2026 Diplo",
+    "lang.name": "English"
+  },
+  "sv": {
+    "logo": "DIPLO",
+    "nav.about": "Om oss",
+    "nav.privacy": "Privatliv",
+    "nav.contact": "Kontakt",
+    "homepage.starter_text": "Lär dig <br>matematikens revolutionerande <br>verktyg och gör det enkelt!",
+    "homepage.get_started": "Kom igång",
+    "homepage.about_link": "Om oss",
+    "math.title": "Välkommen till Matematik!",
+    "subject.math": "Matematik",
+    "about.title": "Om oss",
+    "footer.copy": "© 2026 Diplo",
+    "lang.name": "Svenska"
+  }
+} 

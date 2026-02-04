@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="icon" href="Logo.png" type="image/png">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Profilveckor.css">
 </head>
-<body> 
+<body>
 <a href="Homepage.html">
       <header class="logo_container">
         <div class="CorpLogo">
@@ -19,27 +18,35 @@
     </a>
         
 
-    <div class="dropdown">
-            <button class="dropbtn">English</button>
-        <div class="dropdown-content">
-            <a href="Aboutsve.html">Svenska</a>
-            
-        </div>
-    </div>
+   </a>
+        <button class="language-selector" type="button" aria-label="Select language">
+            <span class="lang-name" data-i18n="lang.name"><b>English</b></span>
+            <img src="7429665.png" alt="" class="lang-icon">
+        </button>
+        
+        <a href="About.html" class="about-link" data-i18n="homepage.about_link">About</a>
         
     </header>
 
-   
- <footer class="footer">
+    
+    <div class="aboutContainer">
+        <p class="aboutText">Diplo is an underfunded project started by 3 unemployed people with the aim to create a platform for learing and development.</p>
+    </div>
+
+
+    
+    
+
+    <footer class="footer">
         <div class="footer-content">
-            <p class="footer-copy">
+            <p class="footer-copy" data-i18n="footer.copy">
                 © 2026 Diplo
             </p>
 
             <nav class="footer-links" aria-label="Footer navigation">
-                <a href="About.html">About</a>
-                <a href="#privacy">Privacy</a>
-                <a href="#contact">Contact</a>
+                <a href="About.html" data-i18n="nav.about">About</a>
+                <a href="#privacy" data-i18n="nav.privacy">Privacy</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
             </nav>
         </div>
     </footer>
