@@ -207,7 +207,7 @@ a {
     height: 130px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     color: #002afc;
     border-style: groove;
 }
