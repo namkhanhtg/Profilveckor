@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Diplo</title>
     <link rel="icon" href="Logo.png" type="image/png">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Profilveckor.css">
 </head>
-<body> 
+<body>
 <a href="Homepage.html">
       <header class="logo_container">
         <div class="CorpLogo">
@@ -19,15 +18,26 @@
     </a>
         
 
-    <button class="language-selector" type="button" aria-label="Select language">
-            <span class="lang-name" data-i18n="lang.name">English</span>
-            <img src="7429665.png" alt="" class="lang-icon">
-    </button>
+    <div class="dropdown">
+            <button class="dropbtn">English</button>
+        <div class="dropdown-content">
+            <a href="Aboutsve.html">Svenska</a>
+            
+        </div>
+    </div>
         
     </header>
 
-   
- <footer class="footer">
+    
+    <div class="aboutContainer">
+        <p class="aboutText">Diplo is an underfunded project started by 3 unemployed people with the aim to create a platform for learing and development.</p>
+    </div>
+
+
+    
+    
+
+    <footer class="footer">
         <div class="footer-content">
             <p class="footer-copy" data-i18n="footer.copy">
                 © 2026 Diplo
@@ -41,6 +51,6 @@
         </div>
     </footer>
 
-    <script src="language.js"></script>
+    
 </body>
-</html> 
+</html>
