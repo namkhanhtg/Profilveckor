@@ -10,29 +10,40 @@
 </head>
 <body> 
 
-<a href="Homepage.html">
-      <header class="logo_container">
-        <div class="CorpLogo">
-        <img src="Uggla.png" alt="Uggla Logo" class="logo">
-        <span class="logo_text"><b>DIPLO</b></span> 
+    <header class="logo_container">
 
-        </div>
-    </a>
-        
+        <img src="Uggla.png" alt="upggla_Logo" class="logo">
+            <span class="logo_text"><b>DIPLO</b></span>
 
-    <div class="dropdown">
-            <button class="dropbtn">English</button>
-        <div class="dropdown-content">
-            <a href="mathsve.html">Svenska</a>
-            
-        </div>
-    </div>
+        <button class="language-selector">
+            <span class="English"><b>English</b></span>
+            <img src="7429665.png" alt="English" class="lang-icon">
+        </button>
+
     
     </header>
 
     <div class="mathContainer">
 
-        <h1 class="mathTitle"><b>Welcome to Math!</b></h1>
+        <h1 class="mathTitle" data-i18n="math.title"><b>Welcome to Math!</b></h1>
         
 
     </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-copy" data-i18n="footer.copy">
+                © 2026 Diplo
+            </p>
+
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="About.html" data-i18n="nav.about">About</a>
+                <a href="#privacy" data-i18n="nav.privacy">Privacy</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="language.js"></script>
+</body>
+</html>
