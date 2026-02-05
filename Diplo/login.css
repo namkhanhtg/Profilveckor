@@ -39,6 +39,11 @@ body{
 
 }
 
+.form--hidden{
+    display: none;
+
+}
+
 .form > *:first-child {
     margin-top: 0 ;
 }
@@ -99,4 +104,54 @@ body{
 .form__input--error{
     color: var(--coler-error);
     border-color: var(--coler-error);
+}
+
+
+.form__input--error-message{
+    color: var(--coler-error);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+
+}
+
+.form__button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: var(--boder-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+
+
+.form__button:hover{
+    background: var(--color-primary-dark);
+
+
+}
+
+.form__button:active{
+    transform: scale(0.98);
+
+}
+
+.form__text{
+    text-align: center;
+    
+}
+
+.form__link{
+    color: var(--color-primary);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.form__link:hover{
+    text-decoration: underline;
+
 }
