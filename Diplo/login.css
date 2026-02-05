@@ -88,3 +88,15 @@ body{
 
   
 }
+
+
+.form__input:focus{
+    border-color: var(--color-primary);
+    background: white;
+
+}
+
+.form__input--error{
+    color: var(--coler-error);
+    border-color: var(--coler-error);
+}
