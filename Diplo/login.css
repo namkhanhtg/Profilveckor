@@ -155,3 +155,16 @@ body{
     text-decoration: underline;
 
 }
+
+
+.form__image-container{
+    text-align: left;
+    margin-bottom: 1rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+.form__image{
+    max-width: 100px;
+    height: auto;
+}

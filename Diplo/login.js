@@ -5,30 +5,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const linkCreateAccount = document.querySelector("#linkCreateAccount");
     const linkLogin = document.querySelector("#linkLogin");
 
-    // Switch to Create Account
+   
     linkCreateAccount.addEventListener("click", (e) => {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
         createAccountForm.classList.remove("form--hidden");
     });
 
-    // Switch to Login
+    
     linkLogin.addEventListener("click", (e) => {
         e.preventDefault();
         createAccountForm.classList.add("form--hidden");
         loginForm.classList.remove("form--hidden");
     });
 
-    // LOGIN SUBMIT
+    
     loginForm.addEventListener("submit", (e) => {
         e.preventDefault();
 
-        // Optional: You can add actual validation here
-        // If login is successful, redirect to Subject.html
+        
         window.location.href = "Subject.html";
     });
 
-    // CREATE ACCOUNT SUBMIT
+   
     createAccountForm.addEventListener("submit", (e) => {
         e.preventDefault();
 
@@ -51,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         message.classList.remove("form__message--error");
         message.classList.add("form__message--success");
 
-        // Optional: Redirect to login after account creation
+        
         setTimeout(() => {
             createAccountForm.classList.add("form--hidden");
             loginForm.classList.remove("form--hidden");
