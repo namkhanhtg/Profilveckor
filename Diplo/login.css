@@ -13,7 +13,78 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: url();
+    background: url(download.jpg);
+    background-size: cover;
 
 
+}
+
+
+
+.container{
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    border-radius: var(--boder-radius);
+    background: white; 
+    
+}
+
+.container,
+.form__input,
+.form__button{
+    font: 500 1rem "Quicksand", sans-serif;
+
+}
+
+.form > *:first-child {
+    margin-top: 0 ;
+}
+
+.form > *:last-child {
+    margin-bottom: 0 ;
+}
+
+
+
+.form__title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.form__message--succsess{
+    color: var(--coler-success);
+
+}
+
+.form__message--error{
+    color: var(--coler-error);
+
+}
+
+.form__input-group{
+    margin-bottom: 1rem;
+
+}
+
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--boder-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+
+  
 }
