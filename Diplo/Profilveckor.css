@@ -433,3 +433,15 @@ a {
     border: 1px solid #0075ff;
     transform: scale(1.05);
 }
+
+.contactcontainer{
+    margin: 100px auto;
+    padding: 20px 40px;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    left: 0px;
+    position: absolute;
+    height: 75%;
+    top: 10px;
+}
