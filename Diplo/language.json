@@ -10,6 +10,7 @@
     "math.title": "Welcome to Math!",
     "subject.math": "Math",
     "about.title": "About",
+    "about.description": "Diplo is an underfunded project started by 3 unemployed people with the aim to create a platform for learning and development.",
     "footer.copy": "© 2026 Diplo",
     "lang.name": "English"
   },
@@ -24,6 +25,7 @@
     "math.title": "Välkommen till Matematik!",
     "subject.math": "Matematik",
     "about.title": "Om oss",
+    "about.description": "Diplo är ett underfinansierat projekt startat av 3 arbetslösa personer med målet att skapa en plattform för lärande och utveckling.",
     "footer.copy": "© 2026 Diplo",
     "lang.name": "Svenska"
   }
