@@ -1,50 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subject</title>
-    <link rel="icon" href="Logo.png" type="image/png">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="subject.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diplo - Subjects</title>
+  <link rel="icon" href="Logo.png" type="image/png"/>
+  <link rel="stylesheet" href="subject.css"/>
 </head>
-<body> 
+<body>
 
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="Homepage.html" class="logo">🎓 <span class="logo-text">Diplo</span></a>
+      
+    </div>
 
+    <ul class="nav-links">
+      <li><a href="#" class="active">Dashboard</a></li>
+      <li><a href="#">Subjects</a></li>
+      <li><a href="#">Teachers</a></li>
+    </ul>
 
-   
-<div class="cards-container">
-  <div class="card">
-    <img src="ChatGPT Image Feb 5, 2026, 01_33_30 PM.png" alt="Mountains">
-    <div class="card-content">
-      <div class="category">Travel</div>
-      <h3>Trip Planning for Total Beginners</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat sapien blandit nunc elementum dapibus.</p>
-      <a href="#" class="btn">Continue</a>
+    <div class="nav-right">
+      <div class="profile">👤</div>
+    </div>
+  </nav>
+
+  <div class="grid-container">
+    <a href="math.html" class="card active">
+      <div class="icon">📐</div>
+      <div class="label">Mathematics</div>
+    </a>
+
+    <div class="card">
+      <div class="icon">📖</div>
+      <div class="label">English</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔬</div>
+      <div class="label">Science</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌍</div>
+      <div class="label">Geography</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏛️</div>
+      <div class="label">History</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎨</div>
+      <div class="label">Art</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎵</div>
+      <div class="label">Music</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">💻</div>
+      <div class="label">Computer Studies</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">⚽</div>
+      <div class="label">Physical Education</div>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧪</div>
+      <div class="label">Chemistry</div>
     </div>
   </div>
 
-  <div class="card">
-    <img src="ChatGPT Image Feb 5, 2026, 01_33_30 PM.png" alt="Desert">
-    <div class="card-content">
-      <div class="category">Travel</div>
-      <h3>7 Ways to Survive in the Desert</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat sapien blandit nunc elementum dapibus.</p>
-      <a href="#" class="btn">Continue</a>
-    </div>
-  </div>
+  <script>
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+        card.classList.add('active');
+      });
+    });
+  </script>
 
-  <div class="card">
-    <img src="ChatGPT Image Feb 5, 2026, 01_33_30 PM.png" alt="Snow Mountains">
-    <div class="card-content">
-      <div class="category">Travel</div>
-      <h3>5 Amazing Travel Destinations</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat sapien blandit nunc elementum dapibus.</p>
-      <a href="#" class="btn">Continue</a>
-    </div>
-  </div>
-</div>
-
-    <script src="language.js"></script>
 </body>
-</html> 
+</html>
