@@ -75,4 +75,98 @@
   }
 
 
-  
+  .logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 300px;
+    background-color: #c1deff;
+}
+
+.logo_container-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.logo_text {
+    font-size: 30px;
+    margin-left: 16px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+
+.language-selector {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease, border 0.3s ease, transform 0.2s ease;
+
+
+    
+
+
+}
+
+.language-selector:hover {
+    background-color: rgba(44, 156, 161, 0.2);
+    border: 1px solid #0075ff;
+    transform: scale(1.05);
+}
+
+.language-selector:focus {
+    outline: 2px solid #0075ff;
+    outline-offset: 2px;
+}
+
+.lang-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.English {
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    .logo_container {
+        padding: 20px;
+    }
+
+    .start_container {
+        padding: 40px 20px;
+    }
+
+    .start_image {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .start_text {
+        font-size: 26px;
+    }
+
+} 
+
+.CorpLogo {
+    display: flex;
+    align-items: center;
+}
